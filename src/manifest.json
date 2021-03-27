@@ -1,0 +1,14 @@
+{
+    "name": "BitClout",
+    "action": {},
+    "manifest_version": 3,
+    "version": "0.2",
+    "description": "Adds extra features to BitClout!",
+    "content_scripts": [
+        {
+            "matches": ["https://*.bitclout.com/*"],
+            "css": ["styles.css"],
+            "js": ["main.js"]
+        }
+    ]
+}

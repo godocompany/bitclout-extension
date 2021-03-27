@@ -1,0 +1,1 @@
+zip -r ./dist.zip ./src/*
