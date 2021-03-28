@@ -40,7 +40,7 @@ function main() {
 }
 
 function loadedPage(path) {
-    if (path[0] === 'u' && path[2] == 'buy') {
+    if (path[0] === 'u' && (path[2] == 'buy' || path[2] == 'trade')) {
         return loadedBuyCreatorCoinPage(path[1]);
     }
     return false;
