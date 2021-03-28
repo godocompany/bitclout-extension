@@ -65,10 +65,11 @@ function loadedBuyCreatorCoinPage(username) {
             const pct = (p.CoinEntry.CreatorBasisPoints / 100).toFixed(2);
             row.innerHTML = [
                 `<i class="fas fa-info-circle"></i><b>${username}</b>'s Founder Reward Percentage is <b>${pct}%</b>`,
-                `<span class="__godo_credit">Brought to you by <a href="/u/GoDo">@GoDo</a></span>`,
+                `<span class="__godo_credit">Founder Reward Percentage display brought to you by <a href="/u/GoDo">@GoDo</a></span>`,
             ].map(l => `<div>${l}</div>`).join('');
 
         });
+
 
     // Return a cleanup function
     return () => {
