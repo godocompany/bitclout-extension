@@ -1,6 +1,6 @@
 function main() {
 
-    // Start an interval checking the URL
+    // Start an interval checking for the Profile sidebar link
     setInterval(() => {
 
         document
@@ -98,7 +98,6 @@ function getProfileFromUsername(username) {
             Description: '',
             OrderBy: 'newest_last_post',
             NumToFetch: 1,
-            // ReaderPublicKeyBase58Check: 'BC1YLjL2pNMaKst9c23nVPgwemQ2XtAip1QxE9HzxgUBKygNYqhsbHM',
             ModerationType: '',
             FetchUsersThatHODL: true,
             AddGlobalFeedBool: false
